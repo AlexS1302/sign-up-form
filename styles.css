@@ -51,7 +51,7 @@ body {
 #logo-bg p {
     color: white; 
     font-family: 'Norse-Bold', sans-serif;
-    font-size: 100px;
+    font-size: 90px;
 }
 
 .credit {
@@ -60,8 +60,10 @@ body {
     bottom: 1%;
 }
 
+.credit a, 
 .credit a:visited {
     color: white;
+    text-decoration: underline;
 }
 
 
@@ -69,5 +71,64 @@ body {
     display: flex;
     background-color: #f9fafb;
     flex-grow: 1;
+    height: 100vh;
+    flex-direction: column;
 }
 
+#heading-container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.first,
+.second {
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.9;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+#form-container {
+    background-color: white;
+    height: 270px;
+    box-shadow:
+    0px 1px 2px rgba(0,0,0,0.01),
+    0px 2px 6px rgba(0,0,0,0.1);
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-heading {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+.button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    border-width: 0;
+    margin-left: 30px;
+    font-size: 100%;
+    width: 20%;
+    height: 60%;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.account-container p {
+    margin-left: 30px;
+}
+
+.login {
+    font-weight: bold;
+    color: #596D48;
+}
