@@ -2,6 +2,7 @@
      
 ## Introduction
 Welcome to my Sign-up Form project!  
+
 This is a simple project that I created to practice form basics and validation techniques.  
 The form includes fields for user inputs, such as first and last name, email, phone number and password.
 
