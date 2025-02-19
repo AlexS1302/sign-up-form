@@ -18,4 +18,4 @@ The form includes fields for user inputs, such as first and last name, email, ph
 You can view this project [here](https://alexs1302.github.io/sign-up-form/)!
 
 ## Credits
-This Project was created as part of The Odin Project's curriculum, a free online resource for learning web development.
+This project was created as part of The Odin Project's curriculum, a free online resource for learning web development.
